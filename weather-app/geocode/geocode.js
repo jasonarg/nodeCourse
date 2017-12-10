@@ -23,7 +23,7 @@ var geocodeAddress = (address, callback) => {
             callback('Unknown error');
         }
     });
-}
+};
 
 module.exports = {
     geocodeAddress
